@@ -1,0 +1,59 @@
+/* 1. <h1 style="">
+   2. <h1 id="">
+   3. <h1 class="">
+   4. <h1>
+   !important (overrides everything)
+*/
+
+/* class, in html <h1 class="red"> */
+.red {
+  color: red;
+}
+
+/* any html element with id="blue" */
+#blue {
+  color: blue;
+}
+
+/* Can combine selectors */
+h1, h2, h3 {
+  color: yellow;
+}
+.red, .blue {
+  background-color: orange;
+}
+#blue, #orange {
+  background-color:green;
+}
+
+/* CSS Box: margin, border, padding
+Margin: spacing between containers
+  if you have a margin bottom that intersects a margin top, they combine
+  margin-top, margin-bottom, margin-left, margin-right
+
+Border: the boundary of my container
+  border: 1px solid black;
+  in order to curve the border- border-radius
+    circle: 50%
+    round: 15px
+
+Padding: Spacing inside of my container
+  padding-top, padding-bottom, padding-left, padding-right */
+  
+/* Padding shorthand (margin works the same way)
+    padding: 16px 2px; (padding top and bottom 16, padding left right 2)
+    goes in clockwise order (top, right, bottom, left) */
+   p {
+    padding: 16px;
+    padding: 16px 8px 20px 2px;
+   }
+    
+
+/* Properties 
+color: ;
+background-color: ;
+
+*/
+
+
+

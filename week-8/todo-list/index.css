@@ -1,0 +1,8 @@
+.finished {
+  text-decoration: line-through;
+  color: blue;
+}
+
+li {
+  list-style-type: none;
+}
